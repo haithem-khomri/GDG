@@ -1,9 +1,9 @@
 import React, { useState,useEffect } from 'react'
 import { Link } from 'react-router-dom/cjs/react-router-dom.min'
 import{FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import { faGasPump,faBars,faXmark } from '@fortawesome/free-solid-svg-icons'
-import { Button } from './button';
+import { faBars,faXmark } from '@fortawesome/free-solid-svg-icons'
 import "./navbar.css"
+import image from "../images/logo.png"
 
 function Navbar() {
     const [click,setClick] = useState(false);
@@ -30,7 +30,7 @@ function Navbar() {
         <nav className='navbar'>
             <div className='navbar-container'>
                 <Link to="/" className='navbar-logo'>
-                    CCUS <FontAwesomeIcon icon={faGasPump}  />
+                <img src={image}></img>
                 </Link>
                 <div className='menu-icon' onClick={handleClick}>
                 <FontAwesomeIcon 
@@ -40,10 +40,8 @@ function Navbar() {
                 </div>
                 <ul className={click ?'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'> <Link to="/" className="nav-links" onClick={closeMobileMenu}>Home</Link></li>
-                    <li className='nav-item'> <Link to="/services" className="nav-links" onClick={closeMobileMenu}>Services</Link></li>
-                    <li className='nav-item'> <Link to="/test" className="nav-links" onClick={closeMobileMenu}>Test</Link></li>
+                    <li className='nav-item'> <Link to="/services" className="nav-links" onClick={closeMobileMenu}>Generator</Link></li>
                 </ul>
-                {button &&<Button buttonStyle='btn--outline'>SIGN UP</Button>}
             </div>
         </nav>
     </>

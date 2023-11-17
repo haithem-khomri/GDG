@@ -1,6 +1,7 @@
 import "../../App.css"
 import Cards from "../Cards";
 import Footer from "../Footer";
+import Why from "../WhyIa"
 import HomeSection from "../homesection"
 
 function Home(){
@@ -8,6 +9,7 @@ function Home(){
         <>
             <HomeSection/>
             <Cards/>
+            <Why/>
             <Footer/>
         </>
     )
