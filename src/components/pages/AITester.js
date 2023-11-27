@@ -1,10 +1,17 @@
 import React from 'react'
 import '../../App.css'
+import Generate from '../generate'
+import Inputs from '../input'
+import Footer from '../Footer'
 
 function test() {
-  return (
-    <h1 className='products '>AI generator</h1>
-  )
-}
+    return(
+      <>
+        <Generate/>
+        <Inputs/>
+        <Footer/>
+      </>
+    )
 
-export default test
+}
+export default test;

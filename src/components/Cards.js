@@ -8,12 +8,7 @@ import img4 from '../images/checkmark-.png'
 
 function Cards() {
   return (
-    <div className='cards'>
-     <div className="bara">
-            <h2>
-            Our Tool will make it easy for you to know every information about CCUS with using Ai.
-            </h2>
-        </div>
+    <div className='cardsection'>
         <h1>
             Check out all those ways
         </h1>

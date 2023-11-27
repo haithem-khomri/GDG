@@ -23,10 +23,10 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <a href='https://www.instagram.com/gdg.batna'>Instagram</a>
+            <a href='https://www.facebook.com/GDGBatna'>Facebook</a>
+            <a href='https://www.instagram.com/gdg.batna'>Gmail</a>
+            <a href='https://www.linkedin.com/company/gdg-batna/'>Linkdin</a>
           </div>
         </div>
       </div>

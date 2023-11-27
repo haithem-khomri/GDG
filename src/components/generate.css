@@ -1,0 +1,25 @@
+.text_part {
+    flex: 1;
+    padding: 90px;
+    text-align: left;
+  }
+  .text_part h1{
+    color: black;
+    font-weight: 400;
+    font-size: 62px;
+    line-height: 75.21px;
+    letter-spacing: 0.2%;
+    text-align: left;
+  }
+  .text_part h1 span{
+    color: #3066BE;
+  }
+
+  .text_part p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 37px;
+    letter-spacing: 0.2%;
+    margin-top: 40px;
+    padding: 20px;
+  }
