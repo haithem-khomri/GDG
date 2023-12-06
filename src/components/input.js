@@ -90,6 +90,13 @@ const MultipleInputFields = () => {
         <div className='CRT'><input className="in"  type="text" name="category" value={inputValues.category} onChange={handleInputChange} placeholder='Category'/><FaFolder size={30} color="#B4C5E4" /></div>
         </div>
       </div>
+      <div className='section'>
+        <h3 className='title'>Technology readiness levels </h3>
+        <div className='inputs_field'>
+        <div className='CRT'><input className="in"  type="text" name="TRLstart" value={inputValues.TRLstart} onChange={handleInputChange} placeholder='Category'/><FaFolder size={30} color="#B4C5E4" /></div>
+        <div className='CRT'><input className="in"  type="text" name="TRLend" value={inputValues.TRLend} onChange={handleInputChange} placeholder='Category'/><FaFolder size={30} color="#B4C5E4" /></div>
+        </div>
+      </div>
       <div className="hero-btns">
                 <Button
                 className="btns"
@@ -120,6 +127,9 @@ const MultipleInputFields = () => {
         <p>Input 5 Value: {inputValues.Budget}</p>
         <p>Input 6 Value: {inputValues.FindingSource}</p>
         <p>Input 7 Value: {inputValues.category}</p>
+        <p>Input 8 Value: {inputValues.TRLstart}</p>
+        <p>Input 9 Value: {inputValues.TRLend}</p>
+
         <br></br>
         <br></br>
         <br></br>
